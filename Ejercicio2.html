@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Profesor Oscar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body> 
+    <form>
+        <!-- Samari Suarez -->
+        <div class='container' id='app'>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Ingrese las horas extras laboradas</label>
+          <input type="number" class="form-control" v-model="hours">
+          <small id="emailHelp" class="form-text text-muted"></small> 
+          <button type="button" v-on:click="validate" class="btn btn-info">Calcular</button>
+         </div>
+       </div>
+       </form>
+       <script src="js/vue.js"></script>
+       <script src="js/main.js"></script>
+</body>
